@@ -139,3 +139,10 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# IDE - JetBrains
+.idea/workspace.xml
+.idea/shelf/
+
+# Claude Code local settings
+.claude/
