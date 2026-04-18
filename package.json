@@ -6,7 +6,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "node --watch src/index.js",
     "migration:generate": "drizzle-kit generate:pg",
-    "migration:push": "drizzle-kit push:pg"
+    "migration:push": "drizzle-kit push:pg",
+    "seed": "node src/db/seed.js"
   },
   "keywords": [],
   "author": "",
